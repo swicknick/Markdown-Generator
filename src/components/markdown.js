@@ -9,7 +9,7 @@ class MarkdownEditor extends Component {
       super(props);
       this.md = new Remarkable();
       this.handleChange = this.handleChange.bind(this);
-      this.state = { value: 'Hello, **world**!' };
+      this.state = { value: '' };
     }
   
     handleChange(e) {
